@@ -21,7 +21,7 @@ public void keyPressed() {
     ship.accelerate(1);
   }
   if(key == 'a'|| key == 'A') {
-    ship.turn(5);
+    ship.turn(-5);
   }
   if(key == 's'|| key == 'S') {
     ship.accelerate(-1);
@@ -34,5 +34,6 @@ public void keyPressed() {
     ship.myYspeed = 0;
     ship.myCenterX = random(500);
     ship.myCenterY = random(500);
+    ship.turn(random(360));
   }
 }
