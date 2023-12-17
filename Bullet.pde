@@ -1,4 +1,3 @@
-
 class Bullet extends Floater {
   private boolean accel;
   public Bullet(Spaceship s) {
